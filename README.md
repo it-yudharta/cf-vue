@@ -20,3 +20,5 @@
 4. menu (...) samping changes pilih `remote` -> `add remote` -> `add remote from github` -> beri nama origin.
 5. publish/push ke github.
 
+#### koneksi ke cloudflare.
+1. buka terminal dan tambahkan cf dependency dengan `npm i -D @cloudflare/vite-plugin wrangler`.
