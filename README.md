@@ -23,4 +23,5 @@
 #### koneksi ke cloudflare.
 1. buka terminal dan tambahkan cf dependency dengan `npm i -D @cloudflare/vite-plugin wrangler`.
 2. setting `vite.config.js` dan `wrangler.jsonc`.
-
+3. login cloudflare, pilih menu `compute (worker)`, create `workers`, pilih dari `import repository`, pilih project `cf-vue`.
+4. setting default lalu pilih `save and deploy`.
