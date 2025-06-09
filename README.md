@@ -22,3 +22,5 @@
 
 #### koneksi ke cloudflare.
 1. buka terminal dan tambahkan cf dependency dengan `npm i -D @cloudflare/vite-plugin wrangler`.
+2. setting `vite.config.js` dan `wrangler.jsonc`.
+
