@@ -15,3 +15,8 @@
 
 #### setting github
 1. menu source control di vscode pilih `Initialize Repository`.
+2. tambah readme dan commit dengan pesan `init`.
+3. buat blank repository di github, dengan nama `cf-vue`, pilih public, klik `create repository`.
+4. menu (...) samping changes pilih `remote` -> `add remote` -> `add remote from github` -> beri nama origin.
+5. publish/push ke github.
+
