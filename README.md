@@ -34,4 +34,5 @@
 5. buat migrasi dengan menjalankan `wrangler d1 migrations create cf-vue create_users`.
 6. setting file `0001_create_users.sql`.
 7. jalankan migrasi dengan `wrangler d1 migrations apply cf-vue`.
-8. setting api pada route `/api/users`.
+8. untuk menjalankan migrasi di serve tambahkan flag `--remote`: `wrangler d1 migrations apply cf-vue --remote`
+9. setting api pada route `/api/users`.
