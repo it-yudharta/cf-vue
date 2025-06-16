@@ -29,8 +29,8 @@
 #### setting backend dan db
 1. install hono dengan menjalankan `npm install hono` di terminal.
 2. setting file `api/index.js` menggunakan hono.
-3. buat database di cloudflare kemudian ambil id nya.
-4. pada `wrangler.json` setting `d1_databases` dan `main`.
+3. buat database dengan nama `cf-vue` di cloudflare kemudian ambil id nya.
+4. pada `wrangler.json` setting `assets`, `d1_databases` dan `main`.
 5. buat migrasi dengan menjalankan `wrangler d1 migrations create cf-vue create_users`.
 6. setting file `0001_create_users.sql`.
 7. jalankan migrasi dengan `wrangler d1 migrations apply cf-vue`.
