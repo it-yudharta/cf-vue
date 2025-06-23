@@ -31,8 +31,8 @@
 2. setting file `api/index.js` menggunakan hono.
 3. buat database dengan nama `cf-vue` di cloudflare kemudian ambil id nya.
 4. pada `wrangler.json` setting `assets`, `d1_databases` dan `main`.
-5. buat migrasi dengan menjalankan `wrangler d1 migrations create cf-vue create_users`.
+5. buat migrasi dengan menjalankan `npx wrangler d1 migrations create cf-vue create_users`.
 6. setting file `0001_create_users.sql`.
-7. jalankan migrasi dengan `wrangler d1 migrations apply cf-vue`.
-8. untuk menjalankan migrasi di serve tambahkan flag `--remote`: `wrangler d1 migrations apply cf-vue --remote`
+7. jalankan migrasi dengan `npx wrangler d1 migrations apply cf-vue`.
+8. untuk menjalankan migrasi di serve tambahkan flag `--remote`: `npx wrangler d1 migrations apply cf-vue --remote`
 9. setting api pada route `/api/users`.
